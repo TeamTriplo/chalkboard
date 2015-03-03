@@ -1807,6 +1807,12 @@ label {
   font-size: 14px;
 }
 
+/* line 17, ../sass/custom/_custom.scss */
+.form-item-mergevars-MMERGE4 input,
+.form-item-mergevars-MMERGE3 input {
+  width: 600px;
+}
+
 /* SMACSS theme rules */
 /* @import "theme-A"; */
 /* @import "theme-B"; */
