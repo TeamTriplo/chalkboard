@@ -10,8 +10,8 @@
 function member_profile_default_profile2_type() {
   $items = array();
   $items['member'] = entity_import('profile2_type', '{
-    "userCategory" : false,
-    "userView" : false,
+    "userCategory" : true,
+    "userView" : true,
     "type" : "member",
     "label" : "Member profile",
     "weight" : "0",
