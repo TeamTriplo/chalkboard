@@ -1699,7 +1699,7 @@ tr.selected td {
 /* line 803, ../sass/components/_misc.scss */
 .progress .filled {
   background-color: #0072b9;
-  background-image: url('../images/progress.gif?1425210673');
+  background-image: url('../images/progress.gif?1426279027');
 }
 
 /**
@@ -1788,29 +1788,9 @@ tr.selected td {
     display: none;
   }
 }
-/* line 1, ../sass/custom/_custom.scss */
-#main {
-  max-width: 600px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/* line 7, ../sass/custom/_custom.scss */
-#page-title {
-  color: #DB0B04;
-  font-family: 'Bree Serif';
-}
-
-/* line 12, ../sass/custom/_custom.scss */
-label {
-  font-family: 'Arial';
-  font-size: 14px;
-}
-
-/* line 17, ../sass/custom/_custom.scss */
-.form-item-mergevars-MMERGE4 input,
-.form-item-mergevars-MMERGE3 input {
-  width: 600px;
+/* line 1, ../sass/custom/_header.scss */
+#header {
+  background-color: grey;
 }
 
 /* SMACSS theme rules */
