@@ -4,22 +4,23 @@
   padding-top: 2%;
   padding-bottom: 2%;
   font-family: 'Architects Daughter';
+  a:link, 
+  a:visited {
+      color: white;
+      text-decoration: none;
+      font-family: 'Architects Daughter';
+  }
+  a:hover {
+      color: yellow;
+      text-decoration: none;
+      font-family: 'Architects Daughter';
+  }
 }
 
-.header__site-link:link, 
-.header__site-link:visited {
-    color: white;
-    font-family: 'Architects Daughter';
-}
 
-.header__site-link:hover {
-    color: yellow;
-    text-decoration: none;
-    font-family: 'Architects Daughter';
-}
 
 #header {
     margin-left: auto;
     margin-right: auto;
-    max-width: 1200px;
+    max-width: 1000px;
 }
