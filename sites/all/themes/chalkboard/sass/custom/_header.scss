@@ -1,5 +1,18 @@
 #header_region {
-  background-color: grey;
+  background-image: url("../images/chalk.jpg"); 
+  color: white;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.header__site-link:link, 
+.header__site-link:visited {
+    color: white;
+}
+
+.header__site-link:hover {
+    color: yellow;
+    text-decoration: none;
 }
 
 #header {
