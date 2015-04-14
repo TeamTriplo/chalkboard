@@ -156,7 +156,7 @@ $zen-auto-include-item-base: false;
  */
 @media all and (min-width: 960px) {
 
-  $zen-column-count: 5;
+  $zen-column-count: 5 !global;
 
   /**
    * The layout when there is only one sidebar, the left one.
@@ -208,19 +208,19 @@ $zen-auto-include-item-base: false;
     }
   }
 
-  $zen-column-count: 4;
-
-  #block-menu-menu-learn-even-more {
-    @include zen-grid-item(1, 4);
+  #footer {
+    $zen-column-count: 4 !global;
+    #block-menu-menu-getting-started {
+      @include zen-grid-item(1, 1);
+    }
+    #block-menu-menu-resources {
+      @include zen-grid-item(1, 2);
+    }
+    #block-menu-menu-how-to-contribute {
+      @include zen-grid-item(1, 3);
+    }
+    #block-menu-menu-learn-even-more {
+      @include zen-grid-item(1, 4);
+    }
   }
-  #block-menu-menu-how-to-contribute {
-    @include zen-grid-item(1, 3);
-  }
-  #block-menu-menu-getting-started {
-    @include zen-grid-item(1, 1);
-  }
-  #block-menu-menu-resources {
-    @include zen-grid-item(1, 2);
-  }
-
 }
