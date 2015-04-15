@@ -1835,28 +1835,30 @@ p {
 /* line 1, ../sass/custom/_footer.scss */
 #footer-region {
   background-color: #A2A6A1;
+  margin-top: 40px;
+  padding-top: 20px;
 }
 
-/* line 5, ../sass/custom/_footer.scss */
+/* line 7, ../sass/custom/_footer.scss */
 #footer {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
   color: white;
 }
-/* line 10, ../sass/custom/_footer.scss */
+/* line 12, ../sass/custom/_footer.scss */
 #footer a:link {
   color: #D9DBD9;
 }
-/* line 13, ../sass/custom/_footer.scss */
+/* line 15, ../sass/custom/_footer.scss */
 #footer a:visited {
   color: #D9DBD9;
 }
-/* line 16, ../sass/custom/_footer.scss */
+/* line 18, ../sass/custom/_footer.scss */
 #footer a:hover {
   color: white;
 }
-/* line 19, ../sass/custom/_footer.scss */
+/* line 21, ../sass/custom/_footer.scss */
 #footer li a:link, #footer li a:visited {
   font-weight: 100;
 }
