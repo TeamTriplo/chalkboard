@@ -1803,10 +1803,33 @@ tr.selected td {
   margin-right: auto;
 }
 
+/* line 3, ../sass/custom/_page.scss */
+#page a:link, #page a:visited {
+  color: #E76341;
+  text-decoration: none;
+  font-weight: 100;
+}
+/* line 8, ../sass/custom/_page.scss */
+#page a:hover {
+  color: red;
+  font-weight: 100;
+}
+/* line 12, ../sass/custom/_page.scss */
+#page td {
+  font-weight: 100;
+}
+
 /* line 1, ../sass/custom/_overall.scss */
 body {
   font-family: 'Nunito';
   color: #423D41;
+}
+
+/* line 6, ../sass/custom/_overall.scss */
+p {
+  font-family: "Nunito";
+  font-weight: 100;
+  font-size: 14px;
 }
 
 /* line 1, ../sass/custom/_footer.scss */
