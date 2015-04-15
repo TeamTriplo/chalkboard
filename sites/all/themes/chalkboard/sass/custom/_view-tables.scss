@@ -11,3 +11,26 @@
     text-align: center; 
   }
 }
+
+.view-taxonomy-term {
+  line-height: 1.2em;
+  h2 {
+    font-size: .9em;
+    margin: 0px;
+  }
+  p {
+    font-size: .8em;
+  }
+}
+
+.view-taxonomy-term .views-row-even {
+  background: #9A9C9A;
+  border-top: 2px solid #5E5E5D;
+  border-bottom: 2px solid #5E5E5D;
+  padding: 20px;
+}
+
+.view-taxonomy-term .views-row-odd {
+  background: #DFE3DE;
+  padding: 20px;
+}

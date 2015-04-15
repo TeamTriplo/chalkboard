@@ -1823,16 +1823,17 @@ tr.selected td {
 body {
   font-family: 'Nunito';
   color: #423D41;
+  font-weight: 100;
 }
 
-/* line 6, ../sass/custom/_overall.scss */
+/* line 7, ../sass/custom/_overall.scss */
 p {
   font-family: "Nunito";
   font-weight: 100;
   font-size: 14px;
 }
 
-/* line 12, ../sass/custom/_overall.scss */
+/* line 13, ../sass/custom/_overall.scss */
 .add_offering {
   border: 4px solid black;
   border-radius: 15px;
@@ -1840,12 +1841,12 @@ p {
   padding: 10px;
 }
 
-/* line 20, ../sass/custom/_overall.scss */
+/* line 21, ../sass/custom/_overall.scss */
 #block-block-1 a:link, #block-block-1 a:visited {
   color: white;
   text-decoration: none;
 }
-/* line 24, ../sass/custom/_overall.scss */
+/* line 25, ../sass/custom/_overall.scss */
 #block-block-1 a:hover {
   background: #FFAD00;
 }
@@ -1897,6 +1898,34 @@ p {
 /* line 10, ../sass/custom/_view-tables.scss */
 .view-offerings .views-field-title {
   text-align: center;
+}
+
+/* line 15, ../sass/custom/_view-tables.scss */
+.view-taxonomy-term {
+  line-height: 1.2em;
+}
+/* line 17, ../sass/custom/_view-tables.scss */
+.view-taxonomy-term h2 {
+  font-size: .9em;
+  margin: 0px;
+}
+/* line 21, ../sass/custom/_view-tables.scss */
+.view-taxonomy-term p {
+  font-size: .8em;
+}
+
+/* line 26, ../sass/custom/_view-tables.scss */
+.view-taxonomy-term .views-row-even {
+  background: #9A9C9A;
+  border-top: 2px solid #5E5E5D;
+  border-bottom: 2px solid #5E5E5D;
+  padding: 20px;
+}
+
+/* line 33, ../sass/custom/_view-tables.scss */
+.view-taxonomy-term .views-row-odd {
+  background: #DFE3DE;
+  padding: 20px;
 }
 
 /* SMACSS theme rules */
