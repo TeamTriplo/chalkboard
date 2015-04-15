@@ -1832,6 +1832,24 @@ p {
   font-size: 14px;
 }
 
+/* line 12, ../sass/custom/_overall.scss */
+.add_offering {
+  border: 4px solid black;
+  border-radius: 15px;
+  background: #E76341;
+  padding: 10px;
+}
+
+/* line 20, ../sass/custom/_overall.scss */
+#block-block-1 a:link, #block-block-1 a:visited {
+  color: white;
+  text-decoration: none;
+}
+/* line 24, ../sass/custom/_overall.scss */
+#block-block-1 a:hover {
+  background: #FFAD00;
+}
+
 /* line 1, ../sass/custom/_footer.scss */
 #footer-region {
   background-color: #A2A6A1;
