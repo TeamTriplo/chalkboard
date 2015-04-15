@@ -1702,7 +1702,7 @@ tr.selected td {
 /* line 803, ../sass/components/_misc.scss */
 .progress .filled {
   background-color: #0072b9;
-  background-image: url('../images/progress.gif?1398863088');
+  background-image: url('../images/progress.gif?1427261272');
 }
 
 /**
@@ -1879,6 +1879,24 @@ p {
 /* line 21, ../sass/custom/_footer.scss */
 #footer li a:link, #footer li a:visited {
   font-weight: 100;
+}
+
+/* line 1, ../sass/custom/_view-tables.scss */
+.view-offerings {
+  line-height: 18px;
+}
+/* line 3, ../sass/custom/_view-tables.scss */
+.view-offerings .views-field-field-image {
+  padding: 10px;
+}
+/* line 6, ../sass/custom/_view-tables.scss */
+.view-offerings .views-field-field-offering-category {
+  width: 25%;
+  font-size: 14px;
+}
+/* line 10, ../sass/custom/_view-tables.scss */
+.view-offerings .views-field-title {
+  text-align: center;
 }
 
 /* SMACSS theme rules */
